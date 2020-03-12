@@ -1,6 +1,8 @@
 # Full-Stack Showcase App
 
-A showcase app utilizes NodeJS, Express, Sequelize with MySQL2, React, and Reactstrap.
+A showcase app with registration and login, Todo List, Gallery, and Carousel.
+
+Built with NodeJS, Express, Sequelize with MySQL2, React, and Reactstrap.
 
 ## Setup
 
