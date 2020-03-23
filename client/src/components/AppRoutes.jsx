@@ -13,6 +13,7 @@ import AppTodos from './todo/AppTodos';
 import AppAddTodo from './todo/AppAddTodo';
 import AppUsers from './users/AppUsers';
 import AppCarousel from './carousel/AppCarousel';
+import ReactCircles from './d3/ReactCircles';
 
 import { TodoProvider } from '../context/TodoContext';
 import { AuthProvider } from '../context/AuthContext';
@@ -45,6 +46,9 @@ const AppRoutes = props => {
               <Route path="/todos">
                 <AppAddTodo />
                 <AppTodos />
+              </Route>
+              <Route path="/d3">
+                <ReactCircles />
               </Route>
               <Route path="/sample_users">
                 <AppUsers />
