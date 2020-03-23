@@ -4,6 +4,8 @@ A showcase app with registration and login, Todo List, Gallery, and Carousel.
 
 Built with NodeJS, Express, Sequelize with MySQL2, React, and Reactstrap.
 
+TODO: Setup d3 tutorial.
+
 ## Setup
 
 Install server and client node modules:

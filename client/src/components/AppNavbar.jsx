@@ -57,9 +57,9 @@ const AppNavbar = props => {
           <NavLink exact to="/todos" tag={RRNavLink} activeClassName="active">
             Todos
           </NavLink>
-          <NavLink exact to="/d3" tag={RRNavLink} activeClassName="active">
+          {/* <NavLink exact to="/d3" tag={RRNavLink} activeClassName="active">
             D3
-          </NavLink>
+          </NavLink> */}
         </Nav>
         <Nav className="ml-auto" navbar>
           <NavLink exact to="/members" tag={RRNavLink} activeClassName="active">
